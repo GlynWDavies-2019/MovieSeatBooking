@@ -67,11 +67,12 @@ body {
 }
 
 .seat:not(.occupied):hover {
+    border: 1px solid #FFFF00;
     cursor:pointer;
     transform: scale(1.2);
 }
 
-.showcase .set:not(.occupied):hover {
+.showcase .seat:not(.occupied):hover {
     cursor: default;
     transform: scale(1);
 }
